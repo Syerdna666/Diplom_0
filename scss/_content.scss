@@ -1,0 +1,37 @@
+// Img Slider
+
+.sliderontop {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  animation: slider1 20s ease-in-out infinite;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.article__left__title {
+  margin-bottom: 20px;
+}
+
+.article__left__information {
+  margin-bottom: 170px;
+}
+
+
+
+.casualParag {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.3rem;
+}
+.parag-pb {
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.p1 {
+  font-family: 'Open Sans', sans-serif;
+}

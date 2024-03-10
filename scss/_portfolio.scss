@@ -1,0 +1,133 @@
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(22, 5vw);
+    grid-gap: 15px;
+    width: 100%;
+    padding: 0px 30px 30px 30px;
+    margin-top: 75px;
+}
+
+.portfolio-menu-wrapper {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    margin-top: 300px;
+}
+
+.portfolio-menu {
+    position: fixed;
+    margin-left: 20px;
+}
+
+.portfolio-menu .portfolio-menu__item {
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.portfolio-menu .portfolio-menu__item .main:nth-child(2) {
+    margin-top: 20px;
+}
+
+.portfolio-menu .portfolio-menu__item .main:last-child {
+    margin-bottom: 20px;
+}
+
+.portfolio-menu .portfolio-menu__item .main {
+    display: none;
+}
+
+.portfolio-menu .portfolio-menu__item.active-item .main {
+    display: block;
+}
+
+.portfolio-menu .portfolio-menu__item span:hover {
+    text-decoration: underline;
+}
+
+
+.portfolio-content__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-content__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.portfolio-content__item--2 {
+    grid-column-start: 5;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.portfolio-content__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 12;
+}
+
+.portfolio-content__item--4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 12;
+}
+
+.portfolio-content__item--5 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 12;
+}
+
+.portfolio-content__item--6 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 17;
+}
+
+.portfolio-content__item--7 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 12;
+    grid-row-end: 19;
+}
+
+.portfolio-content__item--8 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 17;
+    grid-row-end: 23;
+}
+
+.portfolio-content__item--9 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 17;
+    grid-row-end: 23;
+}
+
+.portfolio-content__item--10 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 19;
+    grid-row-end: 23;
+}
+
+.header a {
+    color: black;
+}
+
+.active-item {
+    display: block;
+}

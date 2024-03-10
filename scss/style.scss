@@ -1,0 +1,16 @@
+@import "variables";
+@import "mixins";
+@import "animations";
+@import "globals";
+@import "flexgallery";
+@import "footer";
+
+
+
+//layout
+@import "header";
+@import "content";
+@import "breakpoints";
+
+//Pages
+@import "portfolio";
